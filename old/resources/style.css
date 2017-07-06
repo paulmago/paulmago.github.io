@@ -1,0 +1,63 @@
+.aboutme-card
+{
+    padding: 25px 8px 31px 8px;
+    background-color: #2c3e50;
+    color: #ffffff;   
+}
+
+body
+{
+	background-color: #34495e;
+}
+
+.my-font-barrio
+{
+	font-family: 'Barrio', cursive;
+}
+
+.descriptive
+{
+	
+}
+
+.descriptive-value
+{
+	
+}
+
+.my-font-Titillium
+{
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+ul.my-li li {
+    padding: 10px 16px 20px 16px;
+    border-bottom: 0px solid;
+}
+
+ul.my-li-bordered li {
+    padding: 10px 16px 20px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-logo
+{
+	max-width: 200px;
+	max-height: 50px;
+	width: 200px;
+}
+
+.experience-header:hover
+{
+	background-color: #ecf0f1;
+	opacity: 0.5;
+}
+.accordion-content-anim:visible
+{
+
+}
+.my-colors-peter-river
+{
+	color: #fff!important;
+    background-color: #3498db!important;
+}

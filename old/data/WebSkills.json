@@ -1,0 +1,17 @@
+{
+  "Category":"Web Development",
+  "List": [
+            {
+              "skill":"AngularJS, JQuery",
+              "value":"40"
+            },
+            {
+              "skill":"CSS, W3.CSS",
+              "value":"20"
+            },
+            {
+              "skill":"HTML, JSON",
+              "value":"30"
+            }
+          ]
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<title>Ted Ian Osias</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="resources/style.css" type="text/css">
+<link rel="stylesheet" href="resources/animate.css" type="text/css">
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Barrio|Titillium+Web" rel="stylesheet">
+<div class="w3-top">
+		<ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+		    <li>
+		      <a href="#home" class="w3-margin-left my-font-barrio">Ted Ian Osias</a>
+		    </li>
+		    <!-- Right-sided navbar links. Hide them on small screens -->
+		    <li class="w3-right w3-hide-small">
+		      <a href="#AboutMe" class="w3-left">About</a>
+		      <a href="#Experience" class="w3-left">Experience</a>
+		      <a href="#Skills" class="w3-left">Skills</a>
+		      <a href="#Contact" class="w3-left w3-margin-right">Contact</a>
+		    </li>
+		  </ul>
+	</div>
+<body ng-app="osiastedian" style="padding-top:64px;">
+	
+<header id="header" class="w3-display-container w3-content w3-wide" style="width=100%;">
+	<img class="w3-image w3-center" src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t31.0-8/14884494_1362587017094224_6772123381135172020_o.jpg?oh=fc35ffc8ebac644dff8df062b839a698&oe=590CCA41" style="width=100%; max-height:800px;">		
+	<div class="w3-card-4 w3-display-bottomleft w3-padding  w3-hide-medium" style="width:30%">
+	  <img class="w3-image"src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t1.0-9/14517555_1324017880951138_363278745246294702_n.jpg?oh=b11acddf4d5462cdb897120c672cea21&oe=590BA967" style="width:100%">
+	  <div class="w3-container w3-white">
+	  	<p>
+	  		Ted Ian Osias
+		  	<b>Software Engineer</b>
+		  	<a href="http://www.kyocera.com">Kyocera</a>
+	  	</p>
+	  </div>
+	</div>
+	<p class="w3-display-bottomright w3-padding w3-panel w3-light-grey">Music and Code is my thing.</p>
+</header>
+<div class="w3-content w3-container w3-card-4 w3-white">
+	<div class="w3-container w3-center w3-padding">
+		<h1 class="my-font-barrio">About me</h1>
+		<div class="w3-row w3-card-4 aboutme-card">
+			<div class="w3-third aboutme-card-division">
+				<h5 class="w3-wide">Basic Info</h5>
+				<ul class="w3-ul my-li">
+					<li class="w3-row w3-container">
+						<span class="descriptive w3-third w3-left-align">Age:</span>
+						<span class="descriptive-value w3-twothird w3-left-align">20</span>
+					</li>
+					<li class="w3-row w3-container">
+						<span class="w3-third w3-left-align">Birthdate:</span>
+						<span class="w3-twothird w3-left-align">June 30, 1996</span>
+					</li>
+					<li class="w3-row w3-container">
+						<span class="w3-third w3-left-align">Country:</span>
+						<span class="w3-twothird w3-left-align">
+							Philippines
+							<img class="w3-image" src="resources/icons/ph_flag.png" style="max-width: 20px;max-height: 20px;">
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="w3-third aboutme-card-division">
+				<h5 class="w3-wide">Education</h5>
+				<ul class="w3-ul  my-li">
+					<li class="w3-row w3-container">
+						<span class="w3-third w3-left-align">Degree:</span>
+						<span class="w3-twothird w3-left-align">Bachelor of Science in Computer Science</span>
+					</li>
+					<li class="w3-row w3-container">
+						<span class="w3-third w3-left-align">College:</span>
+						<span class="w3-twothird w3-left-align">Cebu Institute of Technology - University</span>
+					</li>
+					<li class="w3-row w3-container">
+						<span class="w3-third w3-left-align">Highschool:</span>
+						<span class="w3-twothird w3-left-align">Saint Louis College - Cebu</span>
+					</li>
+				</ul>
+			</div>
+			<div class="w3-third aboutme-card-division">
+				<h5 class="w3-wide">Hobbies</h5>
+				<ul class="w3-ul my-li">
+					<li class="w3-row w3-container">
+						<span class="w3-third w3-left-align">Music:</span>
+						<span class="w3-twothird w3-left-align">Acoustic and Worship songs</span>
+					</li>										
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="Experience" class="w3-container w3-center">
+		<h1 class="my-font-barrio">Experience</h1>
+		<div class="w3-row w3-card-4 w3-border">
+			<ul class="w3-ul my-li-bordered">
+				<li class="w3-container w3-accordion">
+					<div class="w3-container w3-padding-16" onClick="hideshow('details')">
+						<h5 class="w3-left">Kyocera Document Solutions Development Philippines Inc.</h5>
+						<img class="experience-logo w3-image w3-right w3-hide-small w3-hide-medium" src="http://global.kyocera.com/img/header-logo.gif">
+						<img class="experience-logo w3-image w3-hide-large" src="http://global.kyocera.com/img/header-logo.gif">
+					</div>
+					<div id="details"class="w3-accordion-content animated ">
+						<table class="w3-table w3-striped">
+							<tr class="w3-row">
+								<td class="w3-third">
+									Position:
+								</td>
+								<td class="w3-twothird w3-left">
+									Software Engineer
+								</td>							
+							</tr>
+							<tr class="w3-row">
+								<td class="w3-third" >
+									Technologies:
+								</td>
+								<td class="w3-twothird w3-left">
+									<ul class="w3-ul">
+										<li>
+											C++
+										</li>
+										<li>
+											Visual Studio 2008 - 2013
+										</li>
+										<li>
+											Win32
+										</li>
+										<li>
+											C#
+										</li>
+										<li>
+											JIRA
+										</li>
+										<li>
+											XML
+										</li>
+										<li>
+											Perforce
+										</li>
+									</ul>										
+								</td>
+							</tr>
+						</table>
+					</div>
+				</li>
+				<li class="w3-container w3-accordion">
+					<div class="w3-container w3-padding-16"  onClick="hideshow('details2')">
+						<h5 class="w3-left">Alliance Software Incorporated</h5>
+						<img class="experience-logo w3-image w3-right w3-hide-small w3-hide-medium" src="http://www.alliance.com.ph/images/asi_logo.png">
+						<img class="experience-logo w3-image w3-hide-large" src="http://www.alliance.com.ph/images/asi_logo.png">
+					</div>
+					<div id="details2"class="w3-accordion-content animated ">
+						<table class="w3-table w3-striped">
+							<tr class="w3-row">
+								<td class="w3-third">
+									Position:
+								</td>
+								<td class="w3-twothird w3-left">
+									On-the-Job Trainee
+								</td>							
+							</tr>
+							<tr class="w3-row">
+								<td class="w3-third">
+									Technologies:
+								</td>
+								<td class="w3-twothird w3-left">
+									<ul class="w3-ul">
+										<li>
+											Java EE
+										</li>
+										<li>
+											Netbeans
+										</li>
+										<li>
+											Spring Framework
+										</li>
+										<li>
+											Hibernate
+										</li>
+										<li>
+											AngularJS
+										</li>
+										<li>
+											JQuery
+										</li>
+										<li>
+											Bootstrap
+										</li>
+									</ul>								
+								</td>
+							</tr>
+						</table>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<div ng-controller="SkillsController as skillsController" id="Skills" class="w3-container w3-center">
+		<h1 class="my-font-barrio">Skills</h1>
+		<div class="w3-container w3-card-4 w3-border w3-padding-16 w3-row" style="border: 1px solid #ccc!important;">
+			<div ng-repeat="skillSet in SkillSets" class="w3-container w3-col s1 m4 l4">
+				<H5>{{skillSet.Category}}</H5>
+				<ul class="w3-ul">
+					<li ng-repeat="skill in skillSet.List" class="w3-container w3-row">
+						<span class="w3-third w3-left-align">{{skill.skill}}</span>
+						<div class="w3-twothird w3-progress-container w3-pale-blue">
+						    <div class="w3-progressbar my-colors-peter-river" style="width:{{skill.value}}%">
+						    	{{skill.value}}
+						    </div>
+						</div>
+					</li>					
+				</ul>
+			</div>			
+		</div>
+	</div>
+	<div id="Contact" class="w3-container w3-center">
+		<h1 class="my-font-barrio">Contact Me</h1>
+		<div class="w3-container w3-row">
+				<!--<p class="w3-third w3-left-align">
+					I am <b>Ian</b> and I live in the Philippines.				
+					I earned my degree in Bachelor of Science in Computer Science				
+					on <a href="http://www.cit.edu/v4/">Cebu Institute of Technology - Univeristy</a>.
+					And now I am currently working for <a href="http://www.kyocera.com">Kyocera</a> as a Software Engineer.
+				</p>		-->	
+		</div>
+	</div>
+</div>
+
+
+<footer class="w3-container">
+  All rights reserved to osiastedian.com
+</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="resources/info.js"></script>
+<script src="resources/style.js" type="text/javascript"></script>
+</html>

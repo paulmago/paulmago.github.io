@@ -1,0 +1,17 @@
+{
+  "Category":"Desktop Development",
+  "List": [
+            {
+              "skill":"Java",
+              "value":"75"
+            },
+            {
+              "skill":"C++",
+              "value":"80"
+            },
+            {
+              "skill":"C#",
+              "value":"50"
+            }
+          ]
+}
